@@ -15,6 +15,7 @@
 		FAAB816B2630C81B00C88BF0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FAAB81692630C81B00C88BF0 /* LaunchScreen.storyboard */; };
 		FAAB81762630C81B00C88BF0 /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB81752630C81B00C88BF0 /* TinderTests.swift */; };
 		FAAB81812630C81B00C88BF0 /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB81802630C81B00C88BF0 /* TinderUITests.swift */; };
+		FAAB81932630C85F00C88BF0 /* CombineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB81922630C85F00C88BF0 /* CombineVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		FAAB817C2630C81B00C88BF0 /* TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FAAB81802630C81B00C88BF0 /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		FAAB81822630C81B00C88BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAAB81922630C85F00C88BF0 /* CombineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 		FAAB815D2630C81500C88BF0 /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				FAAB81912630C83100C88BF0 /* Controller */,
 				FAAB815E2630C81500C88BF0 /* AppDelegate.swift */,
 				FAAB81602630C81500C88BF0 /* SceneDelegate.swift */,
 				FAAB81622630C81500C88BF0 /* ViewController.swift */,
@@ -126,6 +129,14 @@
 				FAAB81822630C81B00C88BF0 /* Info.plist */,
 			);
 			path = TinderUITests;
+			sourceTree = "<group>";
+		};
+		FAAB81912630C83100C88BF0 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB81922630C85F00C88BF0 /* CombineVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -258,6 +269,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAB81932630C85F00C88BF0 /* CombineVC.swift in Sources */,
 				FAAB81632630C81500C88BF0 /* ViewController.swift in Sources */,
 				FAAB815F2630C81500C88BF0 /* AppDelegate.swift in Sources */,
 				FAAB81612630C81500C88BF0 /* SceneDelegate.swift in Sources */,
