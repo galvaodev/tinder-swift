@@ -16,6 +16,11 @@
 		FAAB81762630C81B00C88BF0 /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB81752630C81B00C88BF0 /* TinderTests.swift */; };
 		FAAB81812630C81B00C88BF0 /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB81802630C81B00C88BF0 /* TinderUITests.swift */; };
 		FAAB81932630C85F00C88BF0 /* CombineVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB81922630C85F00C88BF0 /* CombineVC.swift */; };
+		FAAB819C2630CFB800C88BF0 /* CombineCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB819B2630CFB800C88BF0 /* CombineCardView.swift */; };
+		FAAB81AA2630D15400C88BF0 /* UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB81A92630D15400C88BF0 /* UIView.swift */; };
+		FAAB81F12630F3E900C88BF0 /* UILabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB81F02630F3E900C88BF0 /* UILabel.swift */; };
+		FAAB81FA2630F83900C88BF0 /* UsuarioService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB81F92630F83900C88BF0 /* UsuarioService.swift */; };
+		FAAB820B2630F90400C88BF0 /* Usuario.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAAB820A2630F90400C88BF0 /* Usuario.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +56,11 @@
 		FAAB81802630C81B00C88BF0 /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
 		FAAB81822630C81B00C88BF0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FAAB81922630C85F00C88BF0 /* CombineVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineVC.swift; sourceTree = "<group>"; };
+		FAAB819B2630CFB800C88BF0 /* CombineCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombineCardView.swift; sourceTree = "<group>"; };
+		FAAB81A92630D15400C88BF0 /* UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIView.swift; sourceTree = "<group>"; };
+		FAAB81F02630F3E900C88BF0 /* UILabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabel.swift; sourceTree = "<group>"; };
+		FAAB81F92630F83900C88BF0 /* UsuarioService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsuarioService.swift; sourceTree = "<group>"; };
+		FAAB820A2630F90400C88BF0 /* Usuario.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Usuario.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +111,10 @@
 		FAAB815D2630C81500C88BF0 /* Tinder */ = {
 			isa = PBXGroup;
 			children = (
+				FAAB81FE2630F86400C88BF0 /* Model */,
+				FAAB81F52630F7F900C88BF0 /* Service */,
+				FAAB81A02630D12400C88BF0 /* Lib */,
+				FAAB819A2630CF9F00C88BF0 /* View */,
 				FAAB81912630C83100C88BF0 /* Controller */,
 				FAAB815E2630C81500C88BF0 /* AppDelegate.swift */,
 				FAAB81602630C81500C88BF0 /* SceneDelegate.swift */,
@@ -137,6 +151,39 @@
 				FAAB81922630C85F00C88BF0 /* CombineVC.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		FAAB819A2630CF9F00C88BF0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB819B2630CFB800C88BF0 /* CombineCardView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		FAAB81A02630D12400C88BF0 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB81A92630D15400C88BF0 /* UIView.swift */,
+				FAAB81F02630F3E900C88BF0 /* UILabel.swift */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		FAAB81F52630F7F900C88BF0 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB81F92630F83900C88BF0 /* UsuarioService.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		FAAB81FE2630F86400C88BF0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FAAB820A2630F90400C88BF0 /* Usuario.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,9 +316,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FAAB81FA2630F83900C88BF0 /* UsuarioService.swift in Sources */,
 				FAAB81932630C85F00C88BF0 /* CombineVC.swift in Sources */,
 				FAAB81632630C81500C88BF0 /* ViewController.swift in Sources */,
+				FAAB81F12630F3E900C88BF0 /* UILabel.swift in Sources */,
+				FAAB819C2630CFB800C88BF0 /* CombineCardView.swift in Sources */,
+				FAAB820B2630F90400C88BF0 /* Usuario.swift in Sources */,
 				FAAB815F2630C81500C88BF0 /* AppDelegate.swift in Sources */,
+				FAAB81AA2630D15400C88BF0 /* UIView.swift in Sources */,
 				FAAB81612630C81500C88BF0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
